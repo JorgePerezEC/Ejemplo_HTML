@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -26,6 +28,23 @@
 
 .App-link {
   color: #61dafb;
+}
+ul{
+  font-size: larger;
+  color: blue;
+}
+.lista{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.menu{
+  background-color: yellow;
+  align-items: center;
+  height: 50px;
 }
 
 @keyframes App-logo-spin {

@@ -4,8 +4,8 @@ class Menu extends React.Component{
     render(){
 
         return(
-            <div>
-                <ul>
+            <div className="menu">
+                <ul className="lista">
                     <li>Home</li>
                     <li>Products</li>
                     <li>Contact us</li>
