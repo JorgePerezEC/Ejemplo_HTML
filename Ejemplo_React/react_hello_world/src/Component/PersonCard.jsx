@@ -22,9 +22,7 @@ class PersonCard extends React.Component{
     
     ageHandler(){
         this.setState({edad: this.state.edad+1});
-        
     }
-    
     
     render(){
         console.log("Props de PersonCard", this.props);
