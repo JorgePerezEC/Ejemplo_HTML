@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import PersonCard from './Component/PersonCard'
+import Menu from './Component/Menu';
 
 class App extends React.Component{
   render(){
@@ -13,6 +14,7 @@ class App extends React.Component{
     ];
     return(
       <div className='App'>
+        <Menu/>
         {/*<PersonCard name={data[0].name} city={data[0].city} country={data[0].country} address={data[0].address}/>
         <PersonCard name={data[1].name} city={data[1].city} country={data[1].country} address={data[1].address}/>
     <PersonCard name={data[2].name} city={data[2].city} country={data[2].country} address={data[2].address}/>*/}
@@ -25,6 +27,7 @@ class App extends React.Component{
             country={person.country} 
             address={person.address} 
             edad={person.edad}
+            setData={this.setState}
           >
             <button onClick={()=>alert(`Contactando a ${person.name}`)}>{`Contactar a ${person.name}`}</button>
           </PersonCard>
