@@ -1,6 +1,7 @@
-import React from "react";
+import React from "react", {useState};
 import '../styles/personC.css';
 
+{}
 class PersonCard extends React.Component{
     aceptarHandler(e){
         //console.log(e)
@@ -26,6 +27,7 @@ class PersonCard extends React.Component{
     
     render(){
         console.log("Props de PersonCard", this.props);
+        console.console.log("Jorge"+valores);
         const {name,city,country,address,img} = this.props; //Desestructuración
         
         return(
@@ -50,4 +52,13 @@ class PersonCard extends React.Component{
     }
 }
 
+const [valores, setValores] = useState({
+    nombre: "DG",
+    url: "http://",
+    count: 0,
+})
+
+setValores({...valores, count: count+1})
+
+//   ...  spreed permite copiar todos los atrib a la variable a la q precede.
 export default PersonCard;
