@@ -6,7 +6,7 @@ class Menu extends React.Component{
 
         return(
             <div className="menu">
-                <div>
+                <div className="listU">
                     <ul className="lista">
                         <li>Home</li>
                         <li>Contact Book</li>
@@ -16,7 +16,6 @@ class Menu extends React.Component{
                 <div>
                     <p>UserName</p>
                 </div>
-                
 
             </div>
         );

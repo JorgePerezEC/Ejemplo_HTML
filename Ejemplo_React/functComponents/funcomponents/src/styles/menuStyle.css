@@ -1,0 +1,28 @@
+ul{
+    font-size: larger;
+    color: blue;
+    list-style: none;
+  }
+  .lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  .listU{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  
+  .menu{
+    background-color: yellow;
+    align-items: center;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
